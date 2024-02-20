@@ -1,0 +1,1090 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Header{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Paytm_Logo{
+    width: 180px;
+}
+.Arrow{
+    width: 12px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;    
+    padding: 10px 20px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: rgb(241, 241, 241);
+}
+.Main_Menu{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.PaytmFC_Dropdown_div{
+    display: none;
+}
+.Align_List{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.PaytmFC_Dropdown{
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.PaytmFC_Hover:hover{
+    .PaytmFC_Dropdown_div{
+        display: block;
+        position: absolute;
+        width: 200px;
+        background-color: white;
+        border: solid 1px rgb(184, 184, 184);
+        border-radius: 5px;
+        margin-left: -20px;
+    }
+}
+.Payments_Dropdown_div li{
+    display: flex;
+}
+.Payments_Dropdown_div a{
+    text-decoration: none;
+    color: black;
+}
+.Payments_Dropdown_div{
+    display: none;
+}
+.Payments_Dropdown:hover{
+    .Payments_Dropdown_div{
+        display: block;
+        position: absolute;
+        margin-left: 180px;
+        margin-top: -30px;
+        width: 200px;
+        background-color: white;
+        border: solid 1px rgb(184, 184, 184);
+        border-radius: 5px;
+        color: black;
+    }
+}
+.TicketBooking_Dropdown_div li{
+    display: flex;
+}
+.TicketBooking_Dropdown_div a{
+    text-decoration: none;
+    color: black;
+}
+.TicketBooking_Dropdown_div{
+    display: none;
+}
+.TicketBooking_Dropdown:hover{
+    .TicketBooking_Dropdown_div{
+        display: block;
+        position: absolute;
+        margin-left: 180px;
+        margin-top: -30px;
+        width: 200px;
+        background-color: white;
+        border: solid 1px rgb(184, 184, 184);
+        border-radius: 5px;
+        color: black;
+    }
+}
+.FinancialServices_Dropdown_div li{
+    display: flex;
+}
+.FinancialServices_Dropdown_div a{
+    text-decoration: none;
+    color: black;
+}
+.FinancialServices_Dropdown_div{
+    display: none;
+}
+.FinancialServices_Dropdown:hover{
+    .FinancialServices_Dropdown_div{
+        display: block;
+        position: absolute;
+        margin-left: 180px;
+        margin-top: -30px;
+        width: 200px;
+        background-color: white;
+        border: solid 1px rgb(184, 184, 184);
+        border-radius: 5px;
+        color: black; 
+    }
+}
+.PaytmFB_Dropdown_div{
+    display: none;
+}
+.PaytmFB_Dropdown li{
+    display: flex;
+}
+.PaytmFB_Dropdown a{
+    text-decoration: none;
+    color: black;
+}
+.PaytmFB_Dropdown{
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.PaytmFB_Hover:hover{
+    .PaytmFB_Dropdown_div{
+        display: block;
+        position: absolute;
+        width: 200px;
+        background-color: white;
+        border: solid 1px rgb(184, 184, 184);
+        border-radius: 5px;
+        margin-left: -20px;
+    }
+}
+
+
+.Button{
+    cursor: pointer;
+    width: 120px;
+    height: 38px;
+    background-color:#00baf2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.Button p{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+#Signin_Icon{
+    width: 38px;
+    height: 38px;
+    
+}
+.st0{
+    fill:#002970;
+}
+.st1{
+    fill:#FFFFFF;
+}
+.Button:hover{
+    background-color: #002970;
+    .st0{
+        fill: #00baf2;
+    }
+}
+
+.LandPage{
+    width: 100%;
+    height: 100vh;
+   
+}
+#Notification_Bar{
+    width: 100%;
+    height: 160px;
+    background-color: #fedc26;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+}
+#Notification_Msg_Bar{
+    width: 100%;
+    max-width: 1200px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Notification_Msg_Bar img{
+    margin-right: 15px;
+}
+#Notification_Msg_Bar a{
+    text-decoration: none;
+    color: #00baf2;
+    margin-left: 10px;
+}
+
+
+.Left_RIght_Section{
+    width: 50%;
+    height: 700px;
+    
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.Left_Section_Content{
+    width: 500px;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Paytm_SquareLogo{
+    width: 90px;
+    margin-bottom: 50px;
+}
+.Left_Section_Content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+.Left_Section_Content p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+.AppdownloadBtn{
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 1px black;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.Appstore_Logo{
+    width: 45px;
+    fill: white;
+}
+.AppdownloadBtn:hover{
+    background-color: white;
+    color: black;
+    .Appstore_Logo{
+        fill: black;
+    }
+}
+.Right_Section_Content{
+    width: 500px;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+.Right_Section_Content img{
+    width: 500px;
+}
+
+.Second_Section{
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+}
+.SkyBlue_Section{
+    width: 100%;
+    height: 50%;
+    background-color: #00baf2;
+    display: flex;
+    justify-content: center;
+}
+.DarkBlue_Section{
+    width: 100%;
+    height:50%;
+    background-color:#002970;
+    display: flex;
+    justify-content: center;
+}
+.Second_Section_Data{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Second_Section h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.Datadiv{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Datadiv_Tiles{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 15px;
+    cursor: pointer;
+}
+.SkyBlue_Section .Datadiv_Tiles:hover {
+    background-color: #0099ff;   
+}
+.DarkBlue_Section .Datadiv_Tiles:hover{
+    background-color: #001a70;
+}
+.Datadiv_Tiles_Icons{
+    width: 63px;
+}
+.Second_Section h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.Second_Section h3 span{
+    font-family: cursive;
+    font-size: larger;
+}
+
+.Third_Section{
+    width: 100%;
+    height: 2300px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+}
+.Third_Section_DataArea{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+.Section_HeaderName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    line-height: 1;
+}
+.Third_Section_Single_div{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Third_Section_Single_div_Left{
+    width:500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    padding-left: 35px;
+
+}
+.Third_Section_Icon{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.Third_Section_IconName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.Third_Section_Icon img{
+    height: 100%;
+}
+.Section_DataHeader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.Section_DataPara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+.Third_Section_Single_div_Right{
+    width: 500px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ThirdSection_FIrstDiv_Image{
+    width: 550px;
+}
+.Third_Section_Double_div{
+    width: 100%;
+    height: 690px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.Third_Section_Double_divdata{
+    width: 570px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}
+.Third_Section_Double_Offer{
+    width: 100%;
+    height: 350px;
+    
+}
+.Third_Section_Double_Offer h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    line-height: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Third_Section_Double_Bigpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+.Third_Section_Double_Smallpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: small;
+    margin-top: 13px;
+}
+.Third_Section_Double_Smallpara a{
+    text-decoration: none;
+    color: #00baf2;
+}
+
+.Third_Section_ThirdDiv_Icon{
+    height: 85px;
+}
+.Third_Section_Double_Image{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+.Third_Section_Double_Image img{
+    width: 100%;
+}
+
+.Section_4A{
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Section_4A_DataField{
+    width: 1200px;
+    height: 650px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Section_4A_Details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Section_4_Caption_divs{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Section_4_Image_divs{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Section_4_Image_divs img{
+    width: 80%;
+}
+.Section_4A_Icon{
+    width: 100%;
+    height: 40px;
+    
+}
+.Section_4A_Icon img{
+    height: 100%;
+}
+.LearnMore_div{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.LearnMore_div h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+.LearnMore_div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    line-height: 1.2;
+}
+.LearnMore_div button{
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 50px;
+    background-color: #002970;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.LearnMore_div button:hover{
+    background-color: #0099ff;
+}
+
+.Section_4B{
+    width: 100%;
+    height: 650px;
+    
+}
+.Section_4B_Background{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: end;
+    background-color: rgb(245, 245, 245);
+    position:absolute;
+    z-index: 0;
+}
+.Section_4B_Background img{
+    width: 100%;
+    z-index: 0;
+
+}
+.Section_4B_Datafield{
+    width: 100%;
+    height: 650px;
+    
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Section_4B_Details{
+    width: 1200px;
+    height: 650px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Section_4B_Icon{
+    width: 100%;
+    height: 40px;
+}
+.Section_4B_Icon img{
+    height: 65px;
+}
+.Section_4C{
+    width: 100%;
+    height: 650px;
+    
+    display: flex;
+    justify-content: center;
+}
+.Section_4C_DataField{
+    width: 1200px;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section_4D{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+.Section_4D_DataField{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+}
+
+.BSP_Section_5{
+    width: 100%;
+    height: 1700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.BSP_Section_DataField{
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.BSP_Section5_DataDiv{
+    width: 100%;
+    height: 670px;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BSP_Section5_CaptionDiv{
+    width: 500px;
+}
+.BSP_Section5_ImgDiv{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.BSP_Section5_ImgDiv img{
+    width: 100%;
+}
+
+.Business_Tools_Section{
+    width: 100%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.Business_Tools_DataField{
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Business_Tools_Div{
+    width: 100%;
+    height: 480px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.Business_Tools{
+    width: 270px;
+    height: 480px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Business_Tools_Image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Business_Tools_Image img{
+    width: 90%;
+    margin-top: -20px;
+}
+.Business_Tools h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 34px;
+    line-height: 1;
+}
+.Tool_Details{
+    width: 100%;
+    height: 125px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Business_Tools p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+.Business_Tools a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.Cards_Section{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.Cards_Field{
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Cards_div{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.Card_Description{
+    width: 250px;
+    height: 100%;
+    
+}
+.Card_Icon{
+    width: 100%;
+    height: 110px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    
+}
+.Card_Icon img{
+    height: 60px;
+}
+.Card_Details{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Card_Details p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.Card_Details a{
+    text-decoration: none;
+    color: #00baf2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.Cards{
+    width: 950px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Picture_Card{
+    width: 170px;
+    height: 260px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00baf2;
+    cursor: pointer;
+}
+.Picture_Card h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.Picture_Card_IN{
+    width: 160px;
+    height: 170px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Picture_Card_IN img{
+    width: 100%;
+}
+.Picture_Card:hover{
+    background-color: #0099ff;
+    .Picture_Card_IN img{
+        animation: ImageZoom 0.2s ease-in-out forwards;
+    }
+}
+@keyframes ImageZoom {
+    to{
+        transform: scale(1.1);
+    }
+}
+.Icon_Card{
+    width: 170px;
+    height: 260px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #00baf2;
+    cursor: pointer;
+}
+.Icon_Card_IN{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+}
+.Icon_Card_IN img{
+    width: 75px;
+}
+.Icon_Card h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.Icon_Card h3 span{
+    font-size: 18px;
+}
+.Icon_Card:hover{
+    background-color: #0099ff;
+}
+
+footer{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(233, 233, 233);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footerDataField{
+    width: 1200px;
+    height: 100%;
+    background-color: rgb(233, 233, 233);
+}
+.footerAppDownload_div{
+    width: 100%;
+    height: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.FooterIconArea{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+}
+.FooterAppStore{
+    width: 800px;
+    height: 100%;
+    
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+}
+.FooterAppStore img{
+    height: 53px;
+    margin-left: 12px;
+}
+.FooterSocialMedia{
+    width: 400px;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.FooterSocialMedia img{
+    margin-left: 30px;
+}
+.Droplist{
+    width: 100%;
+    height:500px;
+    
+}
+.Droplist ul{
+    width: 1200px;
+}
+.Droplist li{
+    width: 100%;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+.LineContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+.LineContainer h3{
+    cursor: pointer;
+    font-size: 18px;
+}
+.LineContainer::after{
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.Checkboxes{
+    display: none;
+}
+.List_Btn_size{
+    width: 18px;
+    padding-right: 10px;
+}
+.Droplist p{
+    font-size: smaller;
+    margin-left: 30px;
+    padding-bottom: 40px;
+}
+
+.FooterList1_Para{
+    display: none;
+}
+#FooterList1:checked ~ .FooterList1_Para{
+    display: block;
+}
+
+.FooterList2_Para{
+    display: none;
+}
+#FooterList2:checked ~ .FooterList2_Para{
+    display: block;
+}
+
+.FooterList3_Para{
+    display: none;
+}
+#FooterList3:checked ~ .FooterList3_Para{
+    display: block;
+}
+
+.FooterList4_Para{
+    display: none;
+}
+#FooterList4:checked ~ .FooterList4_Para{
+    display: block;
+}
+.FooterList5_Para{
+    display: none;
+}
+#FooterList5:checked ~ .FooterList5_Para{
+    display: block;
+}
+.FooterList6_Para{
+    display: none;
+}
+#FooterList6:checked ~ .FooterList6_Para{
+    display: block;
+}
+.FooterList7_Para{
+    display: none;
+}
+#FooterList7:checked ~ .FooterList7_Para{
+    display: block;
+}
+.FooterList8_Para{
+    display: none;
+}
+#FooterList8:checked ~ .FooterList8_Para{
+    display: block;
+}
+.FooterList9_Para{
+    display: none;
+}
+#FooterList9:checked ~ .FooterList9_Para{
+    display: block;
+}
+.FooterList10_Para{
+    display: none;
+}
+#FooterList10:checked ~ .FooterList10_Para{
+    display: block;
+}
+
